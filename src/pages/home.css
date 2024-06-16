@@ -1,0 +1,56 @@
+.react-paginate {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.react-paginate li {
+  margin: 5px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.react-paginate li a {
+  border: 1px solid #ccc; 
+  padding: 5px 10px;
+  display: flex;
+justify-content: center;
+ align-items: center;
+ border-radius: 4px;
+  height: 35px;
+width: 35px; 
+  text-decoration: none; 
+  color: #000; 
+  background-color: #fff; 
+  cursor: pointer; 
+}
+
+.react-paginate li.active a {
+     border-radius: 4px;
+  height: 35px;
+width: 35px; 
+  background-color: #46A358; 
+  color: #fff; 
+}
+.react-paginate li a:hover,
+.react-paginate li a:active {
+     border-radius: 4px;
+  height: 35px;
+width: 35px; 
+color: white;
+  background-color: #46A358; 
+}
+.previous, .previous li, .previous li a {
+    display: none !important;
+}
+.Products1 {
+    background-image: url(../assets/Products1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Products2 {
+    background-image: url(../assets/Products2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.wrapper,body._lock{overflow:hidden}._container,.wrapper{margin:0 auto;position:relative}._container,.wrapper,body{position:relative}@tailwind base;@tailwind components;@tailwind utilities;@font-face{font-family:'Cera Pro';src:url("./fonts/CeraPro-Light.woff2") format("woff2"),url("./fonts/CeraPro-Light.woff") format("woff"),url("./fonts/CeraPro-Light.ttf") format("truetype");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Cera Pro';src:url("./fonts/CeraPro-Bold.woff2") format("woff2"),url("./fonts/CeraPro-Bold.woff") format("woff"),url("./fonts/CeraPro-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Cera Pro';src:url("./fonts/CeraPro-Medium.woff2") format("woff2"),url("./fonts/CeraPro-Medium.woff") format("woff"),url("./fonts/CeraPro-Medium.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Cera Pro';src:url("./fonts/CeraPro-Thin.woff2") format("woff2"),url("./fonts/CeraPro-Thin.woff") format("woff"),url("./fonts/CeraPro-Thin.ttf") format("truetype");font-weight:100;font-style:normal;font-display:swap}@font-face{font-family:'Cera Pro';src:url("./fonts/CeraPro-Regular.woff2") format("woff2"),url("./fonts/CeraPro-Regular.woff") format("woff"),url("./fonts/CeraPro-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Cera Pro';src:url("./fonts/CeraPro-Black.woff2") format("woff2"),url("./fonts/CeraPro-Black.woff") format("woff"),url("./fonts/CeraPro-Black.ttf") format("truetype");font-weight:900;font-style:normal;font-display:swap}@font-face{font-family:'Hanging Letters';src:url("./fonts/HangingLetters.woff2") format("woff2"),url("./fonts/HangingLetters.woff") format("woff"),url("./fonts/HangingLetters.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:icons;src:url("./fonts/icon-fonts/icons.eot?5o8b54");src:url("./fonts/icon-fonts/icons.eot?5o8b54#iefix") format("embedded-opentype"),url("./fonts/icon-fonts/icons.ttf?5o8b54") format("truetype"),url("./fonts/icon-fonts/icons.woff?5o8b54") format("woff"),url("./fonts/icon-fonts/icons.svg?5o8b54#icons") format("svg");font-weight:400;font-style:normal;font-display:block}[class*=" _icon-"]::before,[class^="_icon-"]::before{font-family:icons!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}._icon-delete:before{content:"\e903"}._icon-cart:before{content:"\e900"}._icon-heart:before{content:"\e901"}._icon-search:before{content:"\e902"}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit}ol[class],ul[class]{padding:0}blockquote,body,dd,dl,figcaption,figure,h1,h2,h3,h4,h5,h6,li,ol,p,ul{margin:0;font-family:inherit;font-weight:inherit}ul[class]{list-style:none}img{max-width:100%;display:block}button,input,select,textarea{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}body,html{height:100%}body{font-family:'Cera Pro',sans-serif;font-weight:400;color:#727272}.wrapper{min-width:320px;min-height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}._container{max-width:1230px;padding:0 15px}
+
+.menu__list-link._active {
+  font-weight: 700;
+  border-bottom: 3px solid #46A358;
+}
+
+.menu__list-link._hover:hover {
+  color: #46A358;
+}
+
+
+.swiper-slide {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+._btn-more {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 125%;
+  border-radius: 6px;
+  border: none;
+  padding: 12px 26px;
+  background-color: #46A358;
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+
+
+._fly-image {
+  opacity: 1;
+  position: fixed;
+  z-index: 200;
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__img-box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 34.3px;
+          flex: 0 0 34.3px;
+  height: 34.3px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+
+
+.menu {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu__list-item {
+  padding: 0 25px;
+}
+
+.menu__list-link {
+  color: #3D3D3D;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+
+.menu__list-link._hover:hover {
+  color: #46A358;
+}
+
+
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #46A358;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -4px; 
+  background-color: #46A358;
+  border-radius: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+  outline: 3px solid #46A358;
+  outline-offset: 0.125rem;
+}
+input[type="range"]::-moz-range-track {
+  background-color: #46A358;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: #46A358;
+  border: none; 
+  border-radius: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type="range"]:focus::-moz-range-thumb{
+  outline: 3px solid #46A358;
+  outline-offset: 0.125rem;
+}
+.your-order .table-container::-webkit-scrollbar {
+  display: none;
+}
+.order-details-modal .table-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.order-details-modal .table-container {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+
+.order-details-modal .table-container {
+  max-height: 250px;
+  overflow-y: auto; 
+}
+
+.nav-footer {
+  background-image: url(./assets/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
