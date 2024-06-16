@@ -14,7 +14,7 @@ export const productsData = [
     url: "#",
     title: "Barberton Daisy",
     sku: "1995751877966",
-    image: Img1,
+    image: "https://frankfurt.apollo.olxcdn.com/v1/files/9fy21s9xeoxj1-UZ/image;s=900x900",
     image2: Img8,
     image3:
       "https://ideipodarkov.net/reimg/data/gifts/58/715x520/1467758-7492.png",
