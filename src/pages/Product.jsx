@@ -28,14 +28,14 @@ const Product = () => {
   const [isZoomed, setIsZoomed] = useState(false);
   const [relatedProducts, setRelatedProducts] = useState([]);
   useEffect(() => {
-    const productData = jsonData.products.find((p) => p.id.toString() === id);
+    const productData = jsonData.find((p) => p.id.toString() === id);
     if (productData) {
       setProduct(productData);
       setSelectedImage(productData.image);
     }
   }, [id]);
   useEffect(() => {
-    setRelatedProducts(jsonData.products);
+    setRelatedProducts(jsonData);
   }, []);
   const handleImageSelect = (image) => {
     setSelectedImage(image);

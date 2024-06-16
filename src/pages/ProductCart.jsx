@@ -51,7 +51,7 @@ const ProductCart = () => {
   };
 
   useEffect(() => {
-    setRelatedProducts(jsonData.products);
+    setRelatedProducts(jsonData);
   }, []);
 
   return (

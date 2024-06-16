@@ -10,7 +10,7 @@ const SearchComponent = ({ onClose }) => {
     if (!searchTerm) {
       setSearchResults([]);
     } else {
-      const filteredResults = jsonData.products.filter((product) =>
+      const filteredResults = jsonData.filter((product) =>
         product.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setSearchResults(filteredResults);
