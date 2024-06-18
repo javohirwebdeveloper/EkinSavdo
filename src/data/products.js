@@ -12,9 +12,10 @@ export const productsData = [
   {
     id: 1,
     url: "#",
-    title: "Barberton Daisy",
+    title: "Mo'tabar 25",
     sku: "1995751877966",
-    image: Img1,
+    image:
+      "https://frankfurt.apollo.olxcdn.com/v1/files/9fy21s9xeoxj1-UZ/image;s=900x900",
     image2: Img8,
     image3:
       "https://ideipodarkov.net/reimg/data/gifts/58/715x520/1467758-7492.png",
@@ -30,7 +31,7 @@ export const productsData = [
   {
     id: 2,
     url: "#",
-    title: "Angel Wing Begonia",
+    title: "Mo'tabar 50",
     sku: "1995751877966",
     category: "Potter Plants",
     image2: Img8,
@@ -42,7 +43,8 @@ export const productsData = [
     arrivalDate: "2000-04-22",
     rating: 4.5,
     onSale: false,
-    image: Img2,
+    image:
+      "https://bozorcom.ams3.cdn.digitaloceanspaces.com/media/filer_public/4e/78/4e781f1c-c824-408e-8c01-d191b82ab6cc/motabar_bugdoy_uni_25_kg_oliy_navsht.jpg",
     price: "169",
   },
   {
@@ -514,9 +516,10 @@ export const jsonData = [
   {
     id: 1,
     url: "#",
-    title: "Barberton Daisy",
+    title: "Mo'tabar 25",
     sku: "1995751877966",
-    image: Img1,
+    image:
+      "https://frankfurt.apollo.olxcdn.com/v1/files/9fy21s9xeoxj1-UZ/image;s=900x900",
     image2: Img8,
     image3:
       "https://ideipodarkov.net/reimg/data/gifts/58/715x520/1467758-7492.png",
@@ -532,7 +535,7 @@ export const jsonData = [
   {
     id: 2,
     url: "#",
-    title: "Angel Wing Begonia",
+    title: "Mo'tabar 50",
     sku: "1995751877966",
     category: "Potter Plants",
     image2: Img8,
@@ -544,7 +547,8 @@ export const jsonData = [
     arrivalDate: "2000-04-22",
     rating: 4.5,
     onSale: false,
-    image: Img2,
+    image:
+      "https://bozorcom.ams3.cdn.digitaloceanspaces.com/media/filer_public/4e/78/4e781f1c-c824-408e-8c01-d191b82ab6cc/motabar_bugdoy_uni_25_kg_oliy_navsht.jpg",
     price: "169",
   },
   {
